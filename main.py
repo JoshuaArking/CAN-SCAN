@@ -9,7 +9,7 @@ is_hex = re.compile('^[ a-fA-F0-9._]+$')  # creates a regular expression with wa
 network_digits = re.compile('^[ HSMCAN0-9_]+$')  # creates a regular expression with wanted chars
 is_numeric = re.compile('[-0-9.]+')
 is_alnum = re.compile('^[a-zA-Z0-9]+$')
-is_badvin = re.compile('[IOQ]')
+is_badvin = re.compile('[IOQioq]')
 
 last_token = ''
 current_data = []
